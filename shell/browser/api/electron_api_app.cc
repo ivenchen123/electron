@@ -79,6 +79,7 @@
 
 #if BUILDFLAG(IS_MAC)
 #include <CoreFoundation/CoreFoundation.h>
+
 #include "shell/browser/ui/cocoa/electron_bundle_mover.h"
 #endif
 

@@ -5,9 +5,9 @@
 #ifndef ELECTRON_SHELL_BROWSER_UI_VIEWS_AUTOFILL_POPUP_VIEW_H_
 #define ELECTRON_SHELL_BROWSER_UI_VIEWS_AUTOFILL_POPUP_VIEW_H_
 
-#include <memory>
-
 #include "shell/browser/ui/autofill_popup.h"
+
+#include <memory>
 
 #include "content/public/browser/native_web_keyboard_event.h"
 #include "content/public/browser/render_widget_host.h"

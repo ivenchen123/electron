@@ -31,9 +31,8 @@
 #include "shell/common/gin_converters/gurl_converter.h"
 #include "shell/common/gin_converters/net_converter.h"
 #include "shell/common/gin_converters/value_converter.h"
-#include "third_party/blink/public/mojom/loader/resource_load_info.mojom-shared.h"
-
 #include "shell/common/node_includes.h"
+#include "third_party/blink/public/mojom/loader/resource_load_info.mojom-shared.h"
 
 using content::BrowserThread;
 

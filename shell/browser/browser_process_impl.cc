@@ -5,7 +5,6 @@
 #include "shell/browser/browser_process_impl.h"
 
 #include <memory>
-
 #include <utility>
 
 #include "base/command_line.h"

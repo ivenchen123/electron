@@ -14,7 +14,6 @@
 #include <shellapi.h>
 #include <shlobj.h>
 #include <wrl/client.h>
-
 #include "base/bind.h"
 #include "base/callback_helpers.h"
 #include "base/files/file_path.h"

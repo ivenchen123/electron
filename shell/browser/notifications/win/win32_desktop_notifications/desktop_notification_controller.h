@@ -6,6 +6,7 @@
 #define ELECTRON_SHELL_BROWSER_NOTIFICATIONS_WIN_WIN32_DESKTOP_NOTIFICATIONS_DESKTOP_NOTIFICATION_CONTROLLER_H_
 
 #include <Windows.h>
+
 #include <deque>
 #include <memory>
 #include <string>

@@ -21,6 +21,7 @@
 #include "base/time/time.h"
 #include "components/viz/common/quads/compositor_frame.h"
 #include "components/viz/common/surfaces/parent_local_surface_id_allocator.h"
+#include "components/viz/host/host_display_client.h"
 #include "content/browser/renderer_host/delegated_frame_host.h"  // nogncheck
 #include "content/browser/renderer_host/input/mouse_wheel_phase_handler.h"  // nogncheck
 #include "content/browser/renderer_host/render_widget_host_impl.h"  // nogncheck
@@ -37,8 +38,6 @@
 #include "ui/compositor/layer_delegate.h"
 #include "ui/compositor/layer_owner.h"
 #include "ui/gfx/geometry/point.h"
-
-#include "components/viz/host/host_display_client.h"
 
 #if BUILDFLAG(IS_WIN)
 #include "ui/gfx/win/window_impl.h"

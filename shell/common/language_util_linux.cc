@@ -3,7 +3,6 @@
 // found in the LICENSE file.
 
 #include "shell/common/language_util.h"
-
 #include "ui/base/l10n/l10n_util.h"
 
 namespace electron {

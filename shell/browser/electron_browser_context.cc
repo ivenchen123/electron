@@ -5,7 +5,6 @@
 #include "shell/browser/electron_browser_context.h"
 
 #include <memory>
-
 #include <utility>
 
 #include "base/barrier_closure.h"

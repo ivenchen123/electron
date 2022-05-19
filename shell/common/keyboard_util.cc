@@ -2,11 +2,12 @@
 // Use of this source code is governed by the MIT license that can be
 // found in the LICENSE file.
 
+#include "shell/common/keyboard_util.h"
+
 #include <string>
 
 #include "base/strings/string_number_conversions.h"
 #include "base/strings/string_util.h"
-#include "shell/common/keyboard_util.h"
 #include "third_party/blink/public/common/input/web_input_event.h"
 #include "ui/events/event_constants.h"
 

@@ -3,6 +3,7 @@
 // found in the LICENSE file.
 
 #include "shell/browser/extensions/electron_extension_web_contents_observer.h"
+
 #include "content/public/browser/web_contents_user_data.h"
 
 namespace extensions {

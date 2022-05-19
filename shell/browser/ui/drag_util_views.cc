@@ -3,7 +3,6 @@
 // found in the LICENSE file.
 
 #include "shell/browser/ui/drag_util.h"
-
 #include "ui/aura/client/drag_drop_client.h"
 #include "ui/aura/window.h"
 #include "ui/base/clipboard/file_info.h"

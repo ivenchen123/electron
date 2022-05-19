@@ -5,6 +5,7 @@
 #include "shell/browser/extensions/api/cryptotoken_private/cryptotoken_private_api.h"
 
 #include <stddef.h>
+
 #include <memory>
 #include <string>
 #include <vector>

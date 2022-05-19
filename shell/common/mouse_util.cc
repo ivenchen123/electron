@@ -2,9 +2,10 @@
 // Use of this source code is governed by the MIT license that can be
 // found in the LICENSE file.
 
+#include "shell/common/mouse_util.h"
+
 #include <string>
 
-#include "shell/common/mouse_util.h"
 #include "ui/base/cursor/mojom/cursor_type.mojom-shared.h"
 
 using Cursor = ui::mojom::CursorType;

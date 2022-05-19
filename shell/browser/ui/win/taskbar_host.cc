@@ -5,6 +5,7 @@
 #include "shell/browser/ui/win/taskbar_host.h"
 
 #include <objbase.h>
+
 #include <string>
 
 #include "base/stl_util.h"

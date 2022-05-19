@@ -20,6 +20,7 @@
 
 #if BUILDFLAG(IS_WIN)
 #include <windows.h>
+
 #include "base/files/file_path.h"
 #include "shell/browser/ui/win/taskbar_host.h"
 #endif

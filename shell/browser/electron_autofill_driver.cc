@@ -5,7 +5,6 @@
 #include "shell/browser/electron_autofill_driver.h"
 
 #include <memory>
-
 #include <utility>
 
 #include "content/public/browser/render_widget_host_view.h"

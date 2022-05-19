@@ -2,12 +2,13 @@
 // Use of this source code is governed by the MIT license that can be
 // found in the LICENSE file.
 
+#include "shell/app/uv_task_runner.h"
+
 #include <utility>
 
 #include "base/location.h"
 #include "base/stl_util.h"
 #include "base/time/time.h"
-#include "shell/app/uv_task_runner.h"
 
 namespace electron {
 

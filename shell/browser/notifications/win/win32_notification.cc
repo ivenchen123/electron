@@ -9,6 +9,7 @@
 #include "shell/browser/notifications/win/win32_notification.h"
 
 #include <windows.h>
+
 #include <utility>
 
 #include "base/strings/utf_string_conversions.h"

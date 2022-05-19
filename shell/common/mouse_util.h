@@ -6,6 +6,7 @@
 #define ELECTRON_SHELL_COMMON_MOUSE_UTIL_H_
 
 #include <string>
+
 #include "content/common/cursors/webcursor.h"
 #include "ipc/ipc_message_macros.h"
 

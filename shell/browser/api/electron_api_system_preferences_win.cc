@@ -5,6 +5,7 @@
 #include <dwmapi.h>
 #include <windows.devices.enumeration.h>
 #include <wrl/client.h>
+
 #include <iomanip>
 
 #include "shell/browser/api/electron_api_system_preferences.h"

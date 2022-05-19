@@ -9,8 +9,7 @@
 #include "base/win/shlwapi.h"  // NOLINT(build/include_order)
 
 // atlbase.h for CComPtr
-#include <atlbase.h>  // NOLINT(build/include_order)
-
+#include <atlbase.h>   // NOLINT(build/include_order)
 #include <shlobj.h>    // NOLINT(build/include_order)
 #include <shobjidl.h>  // NOLINT(build/include_order)
 

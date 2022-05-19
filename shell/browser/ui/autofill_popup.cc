@@ -2,6 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+#include "shell/browser/ui/autofill_popup.h"
+
 #include <algorithm>
 #include <memory>
 #include <vector>
@@ -12,7 +14,6 @@
 #include "electron/buildflags/buildflags.h"
 #include "mojo/public/cpp/bindings/associated_remote.h"
 #include "shell/browser/native_window_views.h"
-#include "shell/browser/ui/autofill_popup.h"
 #include "shell/common/api/api.mojom.h"
 #include "third_party/blink/public/common/associated_interfaces/associated_interface_provider.h"
 #include "ui/color/color_id.h"

@@ -12,6 +12,7 @@
 #include <UIAutomation.h>
 #include <uxtheme.h>
 #include <windowsx.h>
+
 #include <algorithm>
 #include <cmath>
 #include <memory>

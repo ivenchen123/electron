@@ -5,8 +5,8 @@
 #include "shell/common/platform_util.h"
 
 #include <fcntl.h>
-
 #include <stdio.h>
+
 #include <string>
 #include <vector>
 

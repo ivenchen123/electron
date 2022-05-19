@@ -23,9 +23,8 @@
 #include "content/public/browser/web_contents.h"
 #include "content/public/browser/web_contents_user_data.h"
 #include "mojo/public/cpp/bindings/callback_helpers.h"
-#include "third_party/blink/public/common/associated_interfaces/associated_interface_provider.h"
-
 #include "shell/common/node_includes.h"
+#include "third_party/blink/public/common/associated_interfaces/associated_interface_provider.h"
 
 using content::BrowserThread;
 

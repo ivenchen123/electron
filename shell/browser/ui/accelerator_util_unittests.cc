@@ -3,7 +3,6 @@
 // found in the LICENSE file.
 
 #include "shell/browser/ui/accelerator_util.h"
-
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace accelerator_util {

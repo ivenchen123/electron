@@ -7,9 +7,8 @@
 
 #include <memory>
 
-#include "shell/browser/notifications/win/win32_desktop_notifications/desktop_notification_controller.h"
-
 #include "base/check.h"
+#include "shell/browser/notifications/win/win32_desktop_notifications/desktop_notification_controller.h"
 
 namespace electron {
 

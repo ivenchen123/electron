@@ -15,7 +15,6 @@
 #include "net/base/net_errors.h"
 #include "shell/common/gin_helper/promise.h"
 #include "shell/common/key_weak_map.h"
-
 #include "shell/common/node_includes.h"
 
 namespace electron {

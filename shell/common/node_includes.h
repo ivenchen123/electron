@@ -15,7 +15,6 @@
 #undef require_string  // This is defined in macOS SDK in AssertMacros.h.
 
 #include "electron/push_and_undef_node_defines.h"
-
 #include "env-inl.h"
 #include "env.h"
 #include "node.h"

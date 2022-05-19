@@ -10,6 +10,7 @@
 #include "shell/browser/ui/views/win_frame_view.h"
 
 #include <dwmapi.h>
+
 #include <memory>
 
 #include "base/win/windows_version.h"
