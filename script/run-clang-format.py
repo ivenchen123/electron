@@ -298,13 +298,14 @@ def main():
 
     parse_files = []
     if args.changed:
-        popen = subprocess.Popen(
-            'git diff --name-only --cached',
+        results = subprocess.Popen(
+            "git diff --name-only --cached",
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
-            shell=True
-        )
-        for line in popen.stdout:
+            shell=True,
+            universal_newlines=True
+        ).communicate()[0].split("\n")
+        for line in results:
             file_name = line.rstrip()
             # don't check deleted files
             if os.path.isfile(file_name):
