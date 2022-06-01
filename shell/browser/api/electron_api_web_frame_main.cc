@@ -194,7 +194,7 @@ void WebFrameMain::MaybeSetupMojoConnection() {
         &WebFrameMain::OnRendererConnectionError, weak_factory_.GetWeakPtr()));
   }
   // Wait for RenderFrame to be created in renderer before accessing remote.
-  if (pending_receiver_ && render_frame_->IsRenderFrameCreated()) {
+  if (pending_receiver_ && render_frame_->IsRenderFrameLive()) {
     render_frame_->GetRemoteInterfaces()->GetInterface(
         std::move(pending_receiver_));
   }
